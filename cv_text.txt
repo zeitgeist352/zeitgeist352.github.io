@@ -1,0 +1,71 @@
+Onur Ege Yakar
+
+Contact
+Cell: 0505 150 4217
+E-mail: onurege20@hotmail.com
+
+COMPUTER ENGINEER
+
+LinkedIn:https://www.linkedin.co
+m/in/onur-ege-yakar/
+
+Professional Summary
+Dynamic developer with strong project experience in Java and Python, focused on building practical
+and efficient solutions. Developed multiple projects across different technologies, demonstrating
+solid skills in software and hardware development. Experienced as a Teacher’s Assistant at Bilkent
+University, where I supported students through clear explanations and constructive feedback. Able
+to combine technical expertise with effective communication to deliver impactful, project-driven
+results.
+
+Education
+Bachelor of Science: Computer Science
+Expected in May 2027
+Bilkent University, Ankara
+
+Professional Experience
+Teacher’s Assistant
+Bilkent University Jan 2025 - Jun 2025
+
+/
+
+Feb 2026 - Present
+
+Lab Tutor
+
+Skills
+C++
+Java
+Python
+Hardware Development
+MIPS Assembly
+
+SystemVerilog
+ML
+Data Structures
+JS
+PHP
+
+React.js
+PostgreSQL
+Firebase
+
+Projects
+Artifact Comparison Tool integrated with LLM
+A fitness and nutrient tracking application for Android in the language Java.
+PlakaSmart Plate Recognition App with Python
+Drawing Canvas Operation with VGA in the language SystemVerilog and using the Basys3 card.
+A card website for a digital printing company in the language PHP.
+
+Languages
+English – Full Proficiency (C1)
+
+Awards and Certification
+AKBANK Case Marathon Participant
+
+British Council IELTS Academic
+
+3D Zirve ‘24 Organization Team
+
+Apple ADS Certificiation
+
+
