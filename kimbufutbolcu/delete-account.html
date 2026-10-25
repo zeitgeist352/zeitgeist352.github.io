@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hesap ve Veri Silme / Account Deletion — Kim Bu Futbolcu?</title>
+  <meta name="description" content="Kim Bu Futbolcu? oyununda hesap ve verilerinizi silme kılavuzu. Account and data deletion guide for Kim Bu Futbolcu? (Guess Who Footballer).">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/kimbufutbolcu/legal.css">
+</head>
+<body>
+
+  <header class="legal-header">
+    <div class="legal-header-inner">
+      <div class="brand-area">
+        <span class="brand-icon">⚽</span>
+        <div>
+          <a href="/kimbufutbolcu/" class="brand-title">Kim Bu Futbolcu?</a>
+          <div class="brand-subtitle">Guess Who Footballer &bull; Legal</div>
+        </div>
+      </div>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/kimbufutbolcu/" class="nav-item">Genel Bakış</a></li>
+          <li><a href="/kimbufutbolcu/privacy-policy" class="nav-item">Gizlilik</a></li>
+          <li><a href="/kimbufutbolcu/terms" class="nav-item">Koşullar</a></li>
+          <li><a href="/kimbufutbolcu/delete-account" class="nav-item active">Hesap Silme</a></li>
+        </ul>
+      </nav>
+
+      <div class="lang-switch">
+        <button type="button" class="lang-btn active" id="btn-tr" onclick="setLang('tr')">🇹🇷 Türkçe</button>
+        <button type="button" class="lang-btn" id="btn-en" onclick="setLang('en')">🇬🇧 English</button>
+        <button type="button" class="lang-btn" id="btn-all" onclick="setLang('all')">🌐 Tümü</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+
+    <!-- TURKISH SECTION -->
+    <article id="sec-tr" class="legal-card lang-section">
+      <div class="doc-badge">🗑️ Veri Güvenliği &bull; Hesap Silme Kılavuzu</div>
+      <h1>Hesap ve Veri Silme</h1>
+      <div class="doc-date">Son güncelleme: 23 Ekim 2026 &bull; Kim Bu Futbolcu?</div>
+
+      <p>Kullanıcı gizliliğine ve KVKK/GDPR gerekliliklerine tam uyum kapsamında, dilediğiniz an oyun içi hesabınızı ve profil verilerinizi silebilir veya silinmesini talep edebilirsiniz.</p>
+
+      <h2>1. Uygulama İçinden (Anında Silme)</h2>
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <h4>Ayarlar Menüsünü Açın</h4>
+          <p>Oyunu açın ve ana menünün sağ üst köşesinde yer alan <strong>⚙️ Ayarlar</strong> butonuna dokunun.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <h4>Hesabımı Sil'i Seçin ve Onaylayın</h4>
+          <p>Sayfanın altındaki <strong>"Hesabımı Sil"</strong> butonuna dokunun ve onay penceresini kabul edin.</p>
+        </div>
+      </div>
+
+      <p>Bu işlem yapıldığı anda profiliniz (kullanıcı adı, avatar, jetonlar, seviye, başarımlar, satın alınan oyun içi öğeler, maç istatistikleri) ve anonim hesabınız Firebase sunucularımızdan <strong>kalıcı olarak silinir</strong>. Devam eden herhangi bir online maçınız varsa otomatik olarak pes etme ile sonlandırılır.</p>
+
+      <h2>2. Uygulamaya Erişiminiz Yoksa (Web &amp; E-Posta Talebi)</h2>
+      <p>Uygulamayı sildiyseniz, cihazınıza erişemiyorsanız veya teknik bir nedenden ötürü hesap silme işlemini oyun içinden yapamıyorsanız:</p>
+
+      <div class="info-box">
+        <p>Geliştirici e-posta adresimize hesap silme talebinizi iletebilirsiniz:</p>
+        <p><strong>E-posta:</strong> <a href="mailto:onurege2002@gmail.com?subject=Kim%20Bu%20Futbolcu%20-%20Hesap%20Silme%20Talebi">onurege2002@gmail.com</a></p>
+        <p><strong>Konu:</strong> Hesap Silme Talebi</p>
+        <p><strong>İçerik:</strong> Mümkünse oyundaki kullanıcı adınızı veya işlem kimliğinizi belirtin.</p>
+        <a href="mailto:onurege2002@gmail.com?subject=Kim%20Bu%20Futbolcu%20-%20Hesap%20Silme%20Talebi" class="btn-action">
+          ✉️ Hesap Silme Talebi Gönder
+        </a>
+      </div>
+      <p>E-posta yoluyla yapılan talepler en geç <strong>30 gün içinde</strong> incelenir ve veriler kalıcı olarak silinir.</p>
+
+      <h2>Silinen ve Saklanan Veriler Hakkında</h2>
+      <ul>
+        <li><strong>Kalıcı Silinenler:</strong> Kullanıcı kimliği (UID), profil bilgileri, seviye, jeton bakiyesi, kazanılan rozetler ve eşleşme istatistikleri derhal silinir.</li>
+        <li><strong>Silinmeyen Veriler:</strong> Geçmiş maç kayıtlarında rakip oyuncunun maç geçmişinin bozulmaması adına anonim maç verileri kalabilir (bu kayıtlar adınızı veya kimliğinizi barındırmaz).</li>
+        <li><strong>Çökme Kayıtları:</strong> Firebase Crashlytics çökme raporları adınızla ilişkilendirilmeksizin en fazla 90 gün sonra Firebase tarafından otomatik temizlenir.</li>
+        <li><strong>Yasal Kayıtlar:</strong> Mali mevzuat ve mükerrer işlem önleme gereğince Apple ve Google mağaza satın alma sipariş numaraları sunucu kayıtlarında anonimleştirilmiş olarak saklanabilir.</li>
+      </ul>
+    </article>
+
+    <!-- ENGLISH SECTION -->
+    <article id="sec-en" class="legal-card lang-section">
+      <div class="doc-badge">🗑️ Data Safety &bull; Account Deletion Guide</div>
+      <h1>Account &amp; Data Deletion</h1>
+      <div class="doc-date">Last updated: 23 October 2026 &bull; Guess Who Footballer</div>
+
+      <p>In accordance with user privacy rights and Google Play / Apple App Store requirements, you can permanently delete your game account and profile data at any time.</p>
+
+      <h2>1. In the App (Instant Deletion)</h2>
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <div class="step-text">
+          <h4>Open Settings</h4>
+          <p>Launch the game and tap the <strong>⚙️ Settings</strong> icon in the top-right corner of the main menu.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <div class="step-text">
+          <h4>Tap "Delete my account"</h4>
+          <p>Tap <strong>"Delete my account"</strong> and confirm the dialog.</p>
+        </div>
+      </div>
+
+      <p>Your profile (username, avatar, tokens, XP, level, achievements, in-game items, stats) and anonymous account are <strong>immediately and permanently deleted</strong> from our Firebase servers. Any active online matches will end as a forfeit.</p>
+
+      <h2>2. Without Access to the App (Web &amp; Email Request)</h2>
+      <p>If you uninstalled the app, lost your device, or cannot access the in-game settings, you may request deletion via email:</p>
+
+      <div class="info-box">
+        <p>Send an email to our developer address:</p>
+        <p><strong>Email:</strong> <a href="mailto:onurege2002@gmail.com?subject=Guess%20Who%20Footballer%20-%20Account%20Deletion%20Request">onurege2002@gmail.com</a></p>
+        <p><strong>Subject:</strong> Account Deletion Request</p>
+        <p><strong>Details:</strong> Please provide your in-game username or approximate registration date if known.</p>
+        <a href="mailto:onurege2002@gmail.com?subject=Guess%20Who%20Footballer%20-%20Account%20Deletion%20Request" class="btn-action">
+          ✉️ Send Deletion Request Email
+        </a>
+      </div>
+      <p>Manual deletion requests submitted via email are processed within <strong>30 days</strong>.</p>
+
+      <h2>Retention and Deletion Scope</h2>
+      <ul>
+        <li><strong>Permanently Deleted:</strong> User ID (UID), game profile, tokens, badges, inventory items, and match statistics.</li>
+        <li><strong>Retained Anonymously:</strong> Historical match records on opponents' profiles may retain anonymous outcome data; these do not identify you.</li>
+        <li><strong>Crash Logs:</strong> Anonymous Firebase Crashlytics reports are purged within 90 days.</li>
+        <li><strong>Financial Records:</strong> In-app purchase transaction IDs may be retained to fulfill legal, tax, and anti-fraud store requirements.</li>
+      </ul>
+    </article>
+
+  </main>
+
+  <footer class="legal-footer">
+    <p>&copy; 2026 Onur Ege Yakar &bull; Kim Bu Futbolcu? / Guess Who Footballer</p>
+    <p style="margin-top:0.35rem;"><a href="/kimbufutbolcu/">Legal Hub</a> &bull; <a href="/kimbufutbolcu/privacy-policy">Privacy Policy</a> &bull; <a href="/kimbufutbolcu/terms">Terms of Use</a> &bull; <a href="/kimbufutbolcu/delete-account">Account Deletion</a> &bull; <a href="/">Portfolio</a></p>
+  </footer>
+
+  <script>
+    function setLang(lang) {
+      const secTr = document.getElementById('sec-tr');
+      const secEn = document.getElementById('sec-en');
+      const btnTr = document.getElementById('btn-tr');
+      const btnEn = document.getElementById('btn-en');
+      const btnAll = document.getElementById('btn-all');
+
+      btnTr.classList.remove('active');
+      btnEn.classList.remove('active');
+      btnAll.classList.remove('active');
+
+      if (lang === 'tr') {
+        secTr.style.display = 'block';
+        secEn.style.display = 'none';
+        btnTr.classList.add('active');
+      } else if (lang === 'en') {
+        secTr.style.display = 'none';
+        secEn.style.display = 'block';
+        btnEn.classList.add('active');
+      } else {
+        secTr.style.display = 'block';
+        secEn.style.display = 'block';
+        btnAll.classList.add('active');
+      }
+    }
+
+    (function() {
+      const params = new URLSearchParams(window.location.search);
+      const queryLang = params.get('lang');
+      if (queryLang === 'en') {
+        setLang('en');
+      } else if (queryLang === 'tr') {
+        setLang('tr');
+      } else if (queryLang === 'all') {
+        setLang('all');
+      } else {
+        const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+        if (userLang.startsWith('tr')) {
+          setLang('tr');
+        } else {
+          setLang('en');
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

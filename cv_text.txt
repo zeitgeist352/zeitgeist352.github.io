@@ -3,69 +3,65 @@ Onur Ege Yakar
 Contact
 Cell: 0505 150 4217
 E-mail: onurege20@hotmail.com
+LinkedIn: https://www.linkedin.com/in/onur-ege-yakar/
 
 COMPUTER ENGINEER
 
-LinkedIn:https://www.linkedin.co
-m/in/onur-ege-yakar/
-
 Professional Summary
-Dynamic developer with strong project experience in Java and Python, focused on building practical
-and efficient solutions. Developed multiple projects across different technologies, demonstrating
-solid skills in software and hardware development. Experienced as a Teacher’s Assistant at Bilkent
-University, where I supported students through clear explanations and constructive feedback. Able
-to combine technical expertise with effective communication to deliver impactful, project-driven
-results.
+Software Engineer experienced in Python and Java frameworks, specializing in full-stack architecture and data-driven workflows. Proven ability to integrate computer vision and machine learning models into scalable, real-world solutions.
+
+Professional Experience
+Springboot Development Bootcamp Participant → Commencis Sep 2026 - Ongoing
+Backend Development Intern → Jotform Aug 2026 - Sep 2026
+AI Engineer Intern → cloudnesil Jun 2026 - Aug 2026
+Data Operations Support Associate → Maxijett Jun 2026 - Aug 2026
+Teacher’s Assistant and Lab Tutor → Bilkent University Jan 2025 - Jun 2025 / Jan 2026 - Jun 2026
+
+Projects
+OptimAce automated sports biomechanics application leveraging real-time computer vision and physics algorithms to extract kinetic chain metrics and serve speeds from raw video data. [Ongoing]
+LLM integrated artifact comparasion web application via Python.
+PlakaSmart inference based plate recognition app via TypeScript. [Ongoing]
+Fitness and nutrient tracking application for Android in via SpringBoot framework for Java.
+Cinematic content database application using Flask and React.
+A card website for a digital printing company in the language PHP.
+Drawing Canvas Operation with VGA in the language SystemVerilog and using the Basys3 FPGA card.
+On-Page Visual Annotation Engine: Engineered a React-based UI feedback tool for Jotform featuring precise DOM element/area selection, an automated version-history data model.
 
 Education
 Bachelor of Science: Computer Science
-Expected in May 2027
+Expected in Jun 2027
 Bilkent University, Ankara
 
-Professional Experience
-Teacher’s Assistant
-Bilkent University Jan 2025 - Jun 2025
-
-/
-
-Feb 2026 - Present
-
-Lab Tutor
-
 Skills
+Backend
+Python
 C++
 Java
-Python
-Hardware Development
-MIPS Assembly
-
-SystemVerilog
-ML
-Data Structures
-JS
 PHP
+TypeScript
 
+Frontend
+JavaScript
+HTML
 React.js
+
+Database
+MySQL
 PostgreSQL
 Firebase
 
-Projects
-Artifact Comparison Tool integrated with LLM
-A fitness and nutrient tracking application for Android in the language Java.
-PlakaSmart Plate Recognition App with Python
-Drawing Canvas Operation with VGA in the language SystemVerilog and using the Basys3 card.
-A card website for a digital printing company in the language PHP.
+Additional
+ML Inference
+Docker
+Kubernetes
+SV
+Assembly
 
 Languages
 English – Full Proficiency (C1)
 
 Awards and Certification
 AKBANK Case Marathon Participant
-
 British Council IELTS Academic
-
 3D Zirve ‘24 Organization Team
-
 Apple ADS Certificiation
-
-

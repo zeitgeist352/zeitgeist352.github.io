@@ -1,9 +1,12 @@
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
+        const href = this.getAttribute('href');
+        if (href === '#') return;
+        
+        const target = document.querySelector(href);
         if (target) {
+            e.preventDefault();
             target.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start'
@@ -15,29 +18,33 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Add animation on scroll
 const observerOptions = {
     threshold: 0.1,
-    rootMargin: '0px 0px -100px 0px'
+    rootMargin: '0px 0px -40px 0px'
 };
 
 const observer = new IntersectionObserver(function(entries) {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
             entry.target.style.animation = 'fadeInUp 0.6s ease forwards';
+            observer.unobserve(entry.target);
         }
     });
 }, observerOptions);
 
-// Observe elements with animations
-document.querySelectorAll('section, .stat, .contact-link').forEach(el => {
-    observer.observe(el);
+// Observe elements with animations once DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.stat, .project-card, .skill-category-card, .award-card, .experience-item, .contact-link').forEach(el => {
+        el.style.opacity = '0';
+        observer.observe(el);
+    });
 });
 
-// Add fadeInUp animation
+// Add fadeInUp keyframes
 const style = document.createElement('style');
 style.textContent = `
     @keyframes fadeInUp {
         from {
             opacity: 0;
-            transform: translateY(30px);
+            transform: translateY(24px);
         }
         to {
             opacity: 1;
@@ -46,13 +53,3 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
-
-// Update contact links with your actual information
-document.addEventListener('DOMContentLoaded', function() {
-    // Replace placeholder email
-    const emailLink = document.querySelector('a[href="mailto:your-email@example.com"]');
-    if (emailLink) {
-        // Change to your actual email when ready
-        emailLink.href = 'mailto:your-email@example.com';
-    }
-});
