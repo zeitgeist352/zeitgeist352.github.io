@@ -7,15 +7,15 @@
   <meta name="description" content="Kim Bu Futbolcu? (Guess Who Footballer) mobil oyunu yasal belgeleri, gizlilik politikası, kullanım koşulları ve oyuncu destek merkezi.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/kimbufutbolcu/legal.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/kimbufutbolcu/legal.css?v=2">
 </head>
 <body>
 
   <header class="legal-header">
     <div class="legal-header-inner">
       <div class="brand-area">
-        <span class="brand-icon">⚽</span>
+        <a href="/kimbufutbolcu/" class="brand-icon" aria-hidden="true" tabindex="-1"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path class="ball-patch" d="M12 8l3.8 2.76-1.45 4.48h-4.7L8.2 10.76z"/><path d="M12 8V2M15.8 10.76l5.7-1.86M14.35 15.24l3.55 4.86M9.65 15.24L6.1 20.1M8.2 10.76L2.5 8.9"/></svg></a>
         <div>
           <a href="/kimbufutbolcu/" class="brand-title">Kim Bu Futbolcu?</a>
           <div class="brand-subtitle">Guess Who Footballer &bull; Legal &amp; Support</div>
@@ -32,8 +32,8 @@
       </nav>
 
       <div class="lang-switch">
-        <button type="button" class="lang-btn active" id="btn-tr" onclick="setLang('tr')">🇹🇷 TR</button>
-        <button type="button" class="lang-btn" id="btn-en" onclick="setLang('en')">🇬🇧 EN</button>
+        <button type="button" class="lang-btn active" id="btn-tr" onclick="setLang('tr')">TR</button>
+        <button type="button" class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
       </div>
     </div>
   </header>
@@ -42,8 +42,8 @@
 
     <!-- Hero Card -->
     <div class="legal-card" style="text-align: center; padding: 3rem 2rem;">
-      <div style="font-size: 3.5rem; margin-bottom: 0.75rem;">⚽</div>
-      <h1 style="font-size: 2.25rem; font-family: 'Syne', sans-serif;">Kim Bu Futbolcu?</h1>
+      <div class="hero-logo"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path class="ball-patch" d="M12 8l3.8 2.76-1.45 4.48h-4.7L8.2 10.76z"/><path d="M12 8V2M15.8 10.76l5.7-1.86M14.35 15.24l3.55 4.86M9.65 15.24L6.1 20.1M8.2 10.76L2.5 8.9"/></svg></div>
+      <h1 style="font-size: 2.25rem;">Kim Bu Futbolcu?</h1>
       <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 1rem;">Guess Who Footballer &bull; Mobile Game for iOS &amp; Android</p>
       <div class="doc-badge" style="margin: 0 auto 1.5rem;">Resmi Yasal Belgeler &amp; Destek Merkezi</div>
       
@@ -56,10 +56,10 @@
 
       <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
         <a href="mailto:onurege2002@gmail.com?subject=Kim%20Bu%20Futbolcu%20Destek" class="btn-action">
-          💬 Destek &amp; İletişim / Support
+          Destek &amp; İletişim / Support
         </a>
         <a href="/" class="btn-action" style="background: var(--bg-card-secondary); color: var(--text-primary) !important; border: 1px solid var(--border);">
-          👤 Geliştirici Portfolyosu
+          Geliştirici Portfolyosu
         </a>
       </div>
     </div>
@@ -72,7 +72,6 @@
 
       <!-- Privacy Policy Card -->
       <a href="/kimbufutbolcu/privacy-policy" class="hub-card" style="text-decoration: none;">
-        <div class="hub-card-icon">🛡️</div>
         <div class="hub-card-title">Gizlilik Politikası / Privacy Policy</div>
         <div class="hub-card-desc">
           Oyunumuzun hangi verileri işlediği, Google AdMob reklam izinleri, Firebase altyapısı ve KVKK/GDPR kapsamındaki haklarınız.
@@ -82,7 +81,6 @@
 
       <!-- Terms of Use Card -->
       <a href="/kimbufutbolcu/terms" class="hub-card" style="text-decoration: none;">
-        <div class="hub-card-icon">📜</div>
         <div class="hub-card-title">Kullanım Koşulları / Terms of Use</div>
         <div class="hub-card-desc">
           Oyun kuralları, sanal jetonlar ve uygulama içi satın alımlar (EULA), adil oyun ilkeleri ve yasal sorumluluk sınırları.
@@ -92,7 +90,6 @@
 
       <!-- Account Deletion Card -->
       <a href="/kimbufutbolcu/delete-account" class="hub-card" style="text-decoration: none;">
-        <div class="hub-card-icon">🗑️</div>
         <div class="hub-card-title">Hesap ve Veri Silme / Account Deletion</div>
         <div class="hub-card-desc">
           Uygulama içi ve uygulama dışı hesap silme adımları. Google Play &amp; App Store veri güvenliği politikasına tam uyumlu rehber.
